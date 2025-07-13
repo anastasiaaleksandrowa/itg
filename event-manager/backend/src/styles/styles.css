@@ -1,0 +1,62 @@
+body {
+ background:#083a59;color:white;font-family:sans-serif;
+}
+
+.event-card{
+ border-radius:10px;background:#8c2e47;padding:20px;margin-bottom:10px;}
+```css
+.event-card h3 {
+  color: #f28241;
+}
+
+.event-card p {
+  color: #fff;
+}
+
+.event-card button {
+  background-color: #731702;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-card button:hover {
+  background-color: #f28241;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8c2e47;
+  padding: 10px 20px;
+}
+
+.navbar h1 {
+  color: #f28241;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar ul li a:hover {
+  color: #f28241;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+}
